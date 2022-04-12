@@ -1,0 +1,28 @@
+/* PALETA DE COLORES */
+:root {
+    --color-dark: #3A405A;
+    --color-light-blue:  #AEC5EB;
+    --color-beige: #F9DEC9;
+    --color-s-beige: #E9AFA3;
+    --color-brown: #685044;
+
+    --color-video1: #1b1b1b;
+    --color-light: #ffffff;
+    --color-gold: #c7b8a5;    
+}
+
+.user-reg {
+    box-shadow: 0px 0px 5px #3A405A;
+    border-radius: 50%;
+    text-shadow: 10px 10px 10px #3A405A;
+}
+
+.btn-dark {
+    background: var(--color-dark);
+    border: 0;
+}
+
+.btn-dark:hover {
+    background-color: #1b1b1b;
+    color: var(--color-light);
+}
