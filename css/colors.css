@@ -1,0 +1,57 @@
+
+
+/* PALETA DE COLORES */
+:root {
+    --color-dark: #3A405A;
+    --color-light-blue:  #AEC5EB;
+    --color-beige: #F9DEC9;
+    --color-s-beige: #E9AFA3;
+    --color-brown: #685044;
+
+    --color-video1: #1b1b1b;
+    --color-light: #ffffff;
+    --color-gold: #c7b8a5;    
+}
+
+.dropdown-menu {
+    background-color: var(--color-light);
+}
+
+.dropdown-item:hover {
+    background-color: var(--color-light-blue);
+    color: var(--color-light);
+}
+
+#link_1:hover {
+    background-color: var(--color-light-blue);
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+#link_2:hover {
+    background-color: var(--color-light-blue);
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+.apoyo a {
+    text-decoration: underline;
+}
+
+.btn-cart {
+    background: var(--color-video1);
+    color: var(--color-light);
+}
+
+.btn-cart:hover {
+    background-color: var(--color-gold);
+    color: var(--color-light);
+}
+
+
+
+
+
+
+
+

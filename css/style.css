@@ -1,0 +1,131 @@
+/*FONT A UTILIZAR*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Zilla+Slab:wght@300&display=swap');
+
+:root {
+    --color-video1: #1b1b1b;
+    --color-light: #ffffff;
+    --color-gold: #c7b8a5;  
+}
+
+/*TIPOGRAFIA BODY*/
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    background-color: var(--color-video1);
+    color: var(--color-light);
+    letter-spacing: .05rem;
+}
+
+.lead-xl {
+    font-size: 1.75rem;
+}
+
+.bg-light {
+    background-color: var(--color-light);
+}
+
+.nav-link {
+    margin-left: 2rem;
+}
+
+.navbar {
+    min-height: 5rem;
+}
+
+/**/
+.sydeways {
+    writing-mode: vertical-lr;
+    display: block;
+    margin: 3.5rem 0;
+    transform: rotate(-180deg);
+}
+
+.btn-primary {
+    background-color: transparent;
+    border: 1px solid var(--color-light);
+    border-radius: 0;
+    color: var(--color-light);
+    padding: .7rem 2.5rem;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-light);
+    color: var(--color-video1);
+    border: 1px solid var(--color-light)
+}
+
+/*Quitar underline a cada <a></a>*/
+a {
+    text-decoration: none;
+}
+
+/*Creando el borde del lado de redes sociales*/
+.border-right {
+    border-right: 1px solid rgba(256, 256, 256, .1) !important;
+}
+
+/*Reducir tamaño del texto con mediaquery*/
+@media (max-width: 1199.98px) {
+    .sideways {
+        margin: 2rem 0;
+    }
+    .lead-xl {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .content {
+        padding: 5rem 0;
+    }
+    .icon {
+        padding: 3rem 0;
+    }
+    .ty {
+        padding: 2rem 0;
+    }
+    .i-cart {
+        margin-top: 3rem;
+    }
+}
+
+.ig:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+        /*Se define por la campatibilidad Chrome/Safari*/
+        background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.twi:hover {
+    background: #00ACEE;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.yout:hover {
+    background: red;
+    border-radius: 9px;
+    padding: 3px;
+}
+
+.fac:hover {
+    background: #3B5998;
+    border-radius: 9px;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
